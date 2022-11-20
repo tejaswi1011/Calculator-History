@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project1.ExamPage"
+             Title="ExamPage">
+    <VerticalStackLayout>
+        <VerticalStackLayout>
+            <Label x:Name="questionLabel" HorizontalOptions="CenterAndExpand" FontSize="64" FontAttributes="Bold" ></Label>
+            <Button x:Name="optOneBtn" WidthRequest="140" Clicked="optionBtn_Clicked"></Button>
+            <Button x:Name="optTwoBtn" WidthRequest="140" Clicked="optionBtn_Clicked"></Button>
+            <Button x:Name="optThreeBtn" WidthRequest="140" Clicked="optionBtn_Clicked"></Button>
+            <Label x:Name="sucessMsg" FontAttributes="Italic" HorizontalOptions="CenterAndExpand" FontSize="24" ></Label>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

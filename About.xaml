@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project1.About"
+             Title="About"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <VerticalStackLayout>
+        <Label 
+            Text="Tejaswi Rachakonda - e684u725"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            FontAttributes="Bold"
+            TextColor="Gray"
+            Style="{StaticResource AboutPage}"/>
+        <Label Text="Sailahari Peddakotla - c872f324"
+               VerticalOptions="Start"
+               HorizontalOptions="Start"
+               FontAttributes="Bold"
+               TextColor="Gray"
+               Style="{StaticResource AboutPage}"/>
+        <Label Text="Sai Potla - a672t858"
+               VerticalOptions="Start"
+               HorizontalOptions="Start"
+               FontAttributes="Bold"
+               TextColor="Gray"
+               Style="{StaticResource AboutPage}"/>
+    </VerticalStackLayout>
+</ContentPage>

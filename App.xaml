@@ -1,0 +1,44 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Project1"
+             x:Class="Project1.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary Source="Light.xaml" />
+
+            <Style x:Key="MainLable"
+                   TargetType="Label">
+                <Setter Property="TextColor"
+                        Value="{DynamicResource SecondaryTextColor}" />
+                <Setter Property="FontSize"
+                        Value="22"/>
+            </Style>
+
+            <Style x:Key="MainLable1"
+                   TargetType="Label">
+                <Setter Property="TextColor"
+                        Value="{DynamicResource SecondaryTextColor}" />
+                <Setter Property="FontSize"
+                        Value="64" />
+            </Style>
+
+            <Style x:Key="ButtonStyle"
+                   TargetType="Button">
+                <Setter Property="BackgroundColor"
+                        Value="{DynamicResource PrimaryColor}"/>
+                <Setter Property="TextColor"
+                        Value="{DynamicResource SecondaryColor}"/>
+            </Style>
+
+            <Style x:Key="AboutPage"
+                   TargetType="Label">
+                <Setter Property="TextColor"
+                        Value="{DynamicResource SecondaryTextColor}"/>
+                <Setter Property="FontSize"
+                        Value="Large"/>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
